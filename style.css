@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #maze-container {
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  #maze-container div {
+    display: flex;
+  }
+  
+  .cell {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .pathway {
+    background-color: white;
+  }
+  
+  .wall {
+    background-color: black;
+  }
+  
+  .player {
+    background-color: red;
+  }
+  
+  .goal {
+    background-color: yellow;
+  }
+  
+  #controls {
+    margin-top: 20px;
+  }
+  
+  button {
+    font-size: 24px;
+    margin: 5px;
+    padding: 10px 20px;
+  }
+  
+  #step-counter {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  #status {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  

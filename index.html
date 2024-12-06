@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>氷めいろみたいなやつ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="maze-container"></div>
+    <div id="controls">
+        <button onclick="movePlayer(0)" id="top">↑</button>
+        <div>
+          <button onclick="movePlayer(2)" id="left">←</button>
+          <button onclick="movePlayer(3)" id="right">→</button>
+        </div>
+        <button onclick="movePlayer(1)" id="buttom">↓</button>
+    </div>
+    <p id="status">　</p>
+    <p>ルール説明<br>
+        ・赤がプレイヤー、黄色がゴールです<br>
+        ・壁(黒のブロック)にぶつかるまでプレイヤーは進み続けます<br>
+        ・プレイヤーが止まっているときのみ、上下左右のボタンが押せます<br>
+        ・頑張ってゴールまで行ってください<br>
+    </p>
+    <button onclick="reset()">reset</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
